@@ -2,7 +2,7 @@
 requests==2.32.3
 
 # Known Vulnerable - Should trigger Grype/Trivy alerts (CVE-2017-12794)
-django==4.2.20
+django==6.0.3
 
 # Broken Syntax - Tests your parser's resilience
 !@#$%^&*()_invalid_line_12345
