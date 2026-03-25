@@ -1,0 +1,11 @@
+# Known Good - Should pass with 0 vulnerabilities
+requests==2.31.0
+
+# Known Vulnerable - Should trigger Grype/Trivy alerts (CVE-2017-12794)
+django==1.11
+
+# Broken Syntax - Tests your parser's resilience
+!@#$%^&*()_invalid_line_12345
+
+# Typosquatting test - Looks like 'pandas' but isn't
+pndas==1.5.3

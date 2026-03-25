@@ -1,0 +1,10 @@
+{
+  "name": "quickchain-test-js",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "4.17.20"
+  },
+  "devDependencies": {
+    "bad-package": "---invalid-version---"
+  }
+}
