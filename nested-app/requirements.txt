@@ -2,7 +2,7 @@
 # QuickChain should find this file even though it is not in the root directory
 
 # Known Vulnerable - Flask with known CVEs
-flask==0.12.2
+flask==3.0.3
 
 # Known Good
 numpy==1.24.0

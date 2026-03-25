@@ -1,8 +1,8 @@
 # Known Good - Should pass with 0 vulnerabilities
-requests==2.31.0
+requests==2.32.3
 
 # Known Vulnerable - Should trigger Grype/Trivy alerts (CVE-2017-12794)
-django==1.11
+django==4.2.20
 
 # Broken Syntax - Tests your parser's resilience
 !@#$%^&*()_invalid_line_12345
